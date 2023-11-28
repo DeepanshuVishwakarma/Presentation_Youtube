@@ -8,7 +8,7 @@ function App() {
       <Routes>
         {/* Use the "element" prop to specify the component for each route */}
         <Route path="/slides" element={<MainPage />} />
-        <Route path="/starting" element={<StartPage />} />
+        <Route path="/" element={<StartPage />} />
         {/* <MainPage /> */}
       </Routes>
     </BrowserRouter>

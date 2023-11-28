@@ -23,7 +23,7 @@ function MainPage() {
   ];
   const navigation = useNavigate();
   function handleClick() {
-    navigation("/starting");
+    navigation("/");
   }
 
   const data = {
