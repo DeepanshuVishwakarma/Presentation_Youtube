@@ -349,7 +349,7 @@ function MainPage() {
               <QuoteContainer>
                 <ol className="list-disc pl-8">
                   {data[value]?.keyPoints?.map((bullets, index) => (
-                    <li className="text-[2rem] my-1" key={index}>
+                    <li className="text-[2rem] my-1 text-gray-600" key={index}>
                       {bullets}
                     </li>
                   ))}
@@ -367,7 +367,7 @@ function MainPage() {
               className="w-full h-full flex items-center justify-center font-[20px] text-[50px] mt-10"
               style={{ marginTop: "10rem" }}
             >
-              <i>Thank You...</i>
+              <i className="text-gray-600">Thank You...</i>
             </div>
           )}
           {data[value].type === "modules" && (
@@ -382,7 +382,7 @@ function MainPage() {
                     {module.components.map((component, componentIndex) => (
                       <li
                         key={componentIndex}
-                        className="font-thin text-[14px] text-gray-600"
+                        className="font-thin text-[18px] text-gray-600"
                       >
                         {component.name}
                         <ul className="list-disc pl-5">
