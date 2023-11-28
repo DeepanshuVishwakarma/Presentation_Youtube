@@ -373,7 +373,7 @@ function MainPage() {
           {data[value].type === "modules" && (
             <div
               className="w-full h-full flex justify-around"
-              style={{ marginTop: "10rem" }}
+              style={{ marginTop: "5rem" }}
             >
               {data[value].modules.map((module, moduleIndex) => (
                 <div key={moduleIndex} className="flex flex-col space-y-5">
